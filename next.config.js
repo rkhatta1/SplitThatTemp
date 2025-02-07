@@ -1,9 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/SplitThatTemp",
-  output: "export",
-  reactStrictMode: true,
-  distDir: 'dist',
-};
+  output: 'export',
+  basePath: '/SplitThatTemp', // Replace with your repo name
+  images: {
+    unoptimized: true,
+  },
+}
 
-module.exports = nextConfig;
+module.exports = nextConfig
